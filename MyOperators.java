@@ -63,6 +63,43 @@
 	        int recMoneyInBank = moneyInBank / 2;
 	        System.out.println("current amount in bank:" +recMoneyInBank);
 	        
+	        int remaining = 5000 % 5;
+	        System.out.println("remaining amount in bank:" +remaining);
+	        
+	        int a =6;
+	        int b = 8;
+	         int var;
+	         
+	         var =a;
+	         System.out.println("var sing:" +var);
+	         var +=a;
+	         var *=a;
+	         
+	         System.out.println("A is" +a+ "and B is" +b);
+	         
+	         System.out.println(a==b);
+	         System.out.println(a!=b);
+	         System.out.println(a>b);
+	         System.out.println(a<b);
+	         System.out.println(a>=b);
+	         System.out.println(a<=b);
+	         
+	         
+	         //Logical Operator
+	         
+	         System.out.println((5 > 3)&& (8>5));
+	         System.out.println((5 > 3)&& (8<5));
+	         
+	         System.out.println((5 < 3)|| (8>5));
+	         System.out.println((5 > 3)|| (8<5));
+	         System.out.println((5 < 3)|| (8<5));
+	         
+	         System.out.println(5==3);
+	         System.out.println(!(5>3));
+	        
+	        
+	         
+	         
 	        
 	        
 	        
